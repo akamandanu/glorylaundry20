@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Keunggulan.css";
 import Pelanggan from '../assets/Pelanggan.png'
-import Ceklist from "../assets/Checklist.png";
+import Ceklist from "../assets/checklist.png";
 
 function KeunggulanSection(){
     return(
