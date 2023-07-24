@@ -24,11 +24,11 @@ function Navigasi() {
             <p>Glory Laundry</p>
         </div>
         <ul className={`nav-links ${isMenuOpen ? "slide" : ""}`}>
-          <li><RouterLink to="/" onClick={handleLinkClick}>Beranda</RouterLink></li>
-          <li><RouterLink to="/tentang" onClick={handleLinkClick}>Tentang Kami</RouterLink></li>
-          <li><RouterLink to="/layanan" onClick={handleLinkClick}>Layanan</RouterLink></li>
+          <li><RouterLink to="/glorylaundry20" onClick={handleLinkClick}>Beranda</RouterLink></li>
+          <li><RouterLink to="/glorylaundry20/tentang" onClick={handleLinkClick}>Tentang Kami</RouterLink></li>
+          <li><RouterLink to="/glorylaundry20/layanan" onClick={handleLinkClick}>Layanan</RouterLink></li>
           <li>Blog</li>
-          <li><RouterLink to="/kontak" onClick={handleLinkClick}>Kontak</RouterLink></li>
+          <li><RouterLink to="/glorylaundry20/kontak" onClick={handleLinkClick}>Kontak</RouterLink></li>
         </ul>
         <div className="menu-toggle">
           <input type="checkbox" checked={isMenuOpen} onChange={handleMenuToggle} />

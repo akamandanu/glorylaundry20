@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
       <Routes> {/* Use the 'Routes' component as a parent */}
-        <Route path="/tentang" element={<Tentang />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/layanan" element={<LayananPages />} />
-        <Route path="/kontak" element={<Contact />} />
+        <Route path="/glorylaundry20/tentang" element={<Tentang />} />
+        <Route path="/glorylaundry20" element={<Home />} />
+        <Route path="/glorylaundry20/layanan" element={<LayananPages />} />
+        <Route path="/glorylaundry20/kontak" element={<Contact />} />
       </Routes>
     </Router>
   );
