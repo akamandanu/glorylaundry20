@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/keunggulan.css";
+import "../style/Keunggulan.css";
 import Pelanggan from '../assets/pelanggan.png'
 import Ceklist from "../assets/Checklist.png";
 
