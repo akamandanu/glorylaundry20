@@ -1,0 +1,123 @@
+.notif-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);   
+    z-index: 4;
+}
+
+
+.notif-card .card{
+    max-width: 30rem;
+    background-color: #ffffff;
+    padding: 40px;
+    color: #0F1D40;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h1{
+    font-size: 2em;
+}
+
+.deskripsi{
+    padding-bottom: 1rem;
+}
+
+
+
+
+.card-calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.card-calc button{
+    width: 2rem;
+    height: 2rem;
+    background-color: #0F1D40;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.card-calc button:hover{
+    background-color: #ffffff;
+    border: 1px solid #0F1D40;
+    color: #0F1D40;
+}
+
+.harga{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+.close{
+    border: 1px solid #0F1D40;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: background-color,color  0.2s;
+}
+
+.close:hover{
+    background-color: #0F1D40;
+    color: #ffffff;
+    border: 1px solid #f7f7f7;
+}
+
+.card .pesan{
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid #0F1D40;
+    background-color: transparent;
+}
+
+.card .pesan:hover{
+    background-color: #0F1D40;
+    color: #ffffff;
+}
+
+.simulasi{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.simulasi button{
+    width: 2rem;
+    height: 2rem;
+    background-color: #0F1D40;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.simulasi button:hover{
+    background-color: #ffffff;
+    border: 1px solid #0F1D40;
+    color: #0F1D40;
+}
+
+.hasil-satuan{
+    padding-bottom: 1rem;
+}

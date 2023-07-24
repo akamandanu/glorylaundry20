@@ -1,0 +1,59 @@
+.keunggulan{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-keunggulan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80rem;
+    max-height: 100%;
+    background-color: #ffffff;
+    padding: 8rem 4rem;
+    gap: 4rem;
+    color: #0F1D40;
+}
+
+.gambar-keunggulan img{
+    width: 20rem;
+}
+
+.diskripsi-keunggulan{
+    max-width: 30rem;
+}
+
+.diskripsi-keunggulan h2{
+    font-size: 2em;
+    padding-bottom: 2rem;
+}
+
+.diskripsi-keunggulan p{
+    font-size: 1em;
+}
+
+.diskripsi-keunggulan span{
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cheklist{
+    padding-top: 1rem;
+}
+.diskripsi-keunggulan img{
+    width: 1.5rem;
+}
+
+@media screen and (max-width: 570px){
+    .card-keunggulan{
+        flex-direction: column;
+    }
+
+    .gambar-keunggulan img{
+        width: 12rem;
+    }
+}

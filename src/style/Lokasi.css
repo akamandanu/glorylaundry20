@@ -1,0 +1,43 @@
+.lokasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+    height: 100vh;
+}
+
+.title-lokasi{
+    max-width: 40rem;
+    background-color: #bbe4e7;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 20px;
+    color: #0F1D40;
+    margin: -10px;
+}
+
+.title-lokasi h1{
+    padding-bottom: 1rem;
+}
+
+.title-lokasi p{
+    padding-bottom: 1rem;
+}
+.title-lokasi button{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+.map{
+    background-color: #ffffff;
+    max-width: 50rem;
+    padding: 2rem;
+    border-radius: 20px;
+}

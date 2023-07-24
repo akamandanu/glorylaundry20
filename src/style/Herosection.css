@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    color: #0F1D40;
+    position: relative;
+}
+
+.hero .left{
+    max-width: 40rem;
+    z-index: 2;
+}
+
+.hero h1{
+    font-size: 3em;
+}
+
+
+.hero p{
+    font-size: 1em;
+    margin-top: 10px;
+    color: #0F1D40;
+}
+
+.hero button{
+    margin-top: 20px;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #7CCBD2;
+    color: #ffffff;
+    transition: background-color 0.2s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero button:hover{
+    background-color: #0F1D40;
+    color: #ffffff;
+}
+
+.hero .right{
+    position: relative;
+    z-index: 2;
+}
+
+.hero .card {
+    max-width: 30rem;
+    border: 1px groove black;
+    padding: 20px;
+    height: 25rem;
+    transform: rotate(-5deg); /* Menggunakan properti transform untuk rotate */
+    background-color: #FAFAFB;
+    transition: transform 0.3s; /* Animasi transformasi saat hover */
+  }
+  
+  .hero .card:hover {
+    transform: rotate(0deg); /* Mengubah nilai rotate saat dihover */
+  }
+
+.hero .card-2{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    max-width: 30rem;
+    border: 1px groove  black;
+    padding: 20px;
+    height: 25rem;
+    rotate: 5deg;
+}
+
+
+
+.hero img{
+    width: 20rem;
+    transform: scaleX(-1);
+}
+
+
+
+.circle{
+    width: 20%;
+    height: 45%;
+    background-color: #2D4356;
+    position: absolute;
+    top: 10%;
+    border-radius: 100%;
+    filter: blur(4rem);
+    animation-name: fade-in-out; 
+    animation-duration: 10s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes fade-in-out {
+    0% { width: 0; } 
+    50% { width: 20%; } 
+    100% { width: 0; }
+  }
+.circle1{
+    width: 20%;
+    height: 45%;
+    background-color: #FFD9C0;
+    position: absolute;
+    left: 30%;
+    border-radius: 100%;
+    filter: blur(4rem);
+    animation-name: fade-in-out; 
+    animation-duration: 10s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+}
+.circle2{
+    width: 20%;
+    height: 45%;
+    background-color: #ACFADF;
+    position: absolute;
+    right: 30%;
+    border-radius: 100%;
+    filter: blur(4rem);
+    animation-name: fade-in-out; 
+    animation-duration: 10s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+}
+.circle3{
+    width: 20%;
+    height: 45%;
+    background-color: #4FC0D0;
+    position: absolute;
+    bottom: 10%;
+    border-radius: 100%;
+    filter: blur(3rem);
+    animation-name: fade-in-out; 
+    animation-duration: 10s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+}
+
+@media screen and (max-width: 760px){
+    .hero{
+        flex-direction: column-reverse;
+    }
+
+    .hero img{
+        width: 13rem;
+    }
+
+    .hero h1{
+        font-size: 2.5em;
+    }
+    
+    .hero p{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:1080px){
+    
+    .hero{
+        margin: 20px;
+        
+    }
+    
+    .hero img{
+        width: 15rem;
+    }
+
+
+    .hero h1{
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .hero{
+        flex-direction: column-reverse;
+        margin: 20px;
+        padding-top: 5rem;
+    }
+
+    .hero img{
+        width: 13rem;
+    }
+
+    .hero h1{
+        font-size: 1.5em;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    
+    .hero p{
+        font-size: 1em;
+    }
+
+    .hero .card{
+        height: 18rem;
+    }
+
+    .hero .card-2{
+        height: 18rem;
+    }
+}

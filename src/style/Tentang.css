@@ -1,0 +1,122 @@
+.tentang-kami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    height: 100vh;
+    color: #000000;
+    gap: 10rem;
+}
+
+.tentang-kami img{
+    width: 30rem;
+    height: 30rem;
+    
+}
+
+.diskripsi{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    background-color: #ffffff;
+    padding: 60px 40px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.diskripsi h2{
+    font-size: 3em;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.diskripsi p{
+    font-size: 1.2em;
+    text-align:center;
+}
+
+.diskripsi a{
+    text-decoration: none;
+    color: #8fd3f4;
+    font-size: 1.5em;
+}
+
+.diskripsi a:hover{
+    color: #ffffff;
+}
+
+.diskripsi button{
+    width: 10rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 0px;
+    background-color: #2B2730;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: auto;
+    transition: background-color 0.2s;
+}
+
+.diskripsi button:hover{
+    background-color: #FD0D16;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 570px){
+    .tentang-kami{
+        flex-direction: column-reverse;
+        gap: 1rem;
+        height: 100%;
+    }
+    .tentang-kami img{
+        width: 19rem;
+        height: 19rem;
+    }
+    .diskripsi{
+        width: 20rem;
+    }
+
+    .diskripsi h2{
+        font-size: 1.2em;
+        padding-bottom: 10px;
+    }
+    .diskripsi p{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width:570px) and (max-width: 760px){
+    .tentang-kami{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .tentang-kami img{
+        width: 21rem;
+        height: 21rem;
+    }
+    .diskripsi{
+        width: 40rem;
+    }
+
+    .diskripsi h2{
+        font-size: 2em;
+    }
+    .diskripsi p{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width:1080px){
+    .tentang-kami{
+        flex-direction: column-reverse;
+        gap: 1rem;
+        height: 100%;
+    }
+    .diskripsi{
+        width: 50rem;
+    }
+}

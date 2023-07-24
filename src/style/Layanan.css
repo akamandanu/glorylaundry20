@@ -1,0 +1,79 @@
+.product {
+    height: 100vh;
+    padding: 20px;
+    color: #0F1D40;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .product .card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-produk {
+    flex: 1 1 300px;
+    max-width: 20rem;
+    height: 25rem;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center; /* Added to center the content horizontally */
+  }
+  
+  .latar-gambar {
+    display: flex;
+    justify-content: center; /* Added to center the image vertically */
+    align-items: center; /* Added to center the image horizontally */
+    height: 12rem;
+  }
+  
+  .latar-gambar img {
+    width: 8rem;
+  }
+  
+  /* Added styles for p and button */
+  .card-produk p {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 0.9em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .card-produk button {
+    background-color: #f7f7f7;
+    color: #0F1D40;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 10rem;
+    height: 2.5rem;
+  }
+  
+  .card-produk button:hover {
+    background-color: #0F1D40;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 570px){
+    .product{
+      height: 100%;
+      padding-top: 5rem;
+    }
+  }
